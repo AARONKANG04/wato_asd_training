@@ -35,7 +35,7 @@ private:
   static constexpr int MAP_HEIGHT = 300;
   static constexpr int ORIGIN_X = -15; 
   static constexpr int ORIGIN_Y = -15;
-  static constexpr double INFLATION_RADIUS = 1.75;
+  static constexpr double INFLATION_RADIUS = 1.15;
   static constexpr int OBSTACLE_COST = 100;
 
   std::vector<std::vector<int>> costmap_data_;
